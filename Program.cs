@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Pila pila = new Pila();
+            pila.InsertarElemento(4);
+            pila.InsertarElemento(5);
+            pila.InsertarElemento(6);
+            pila.ImprimirLista();
         }
     }
 }

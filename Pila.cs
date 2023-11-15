@@ -93,6 +93,24 @@ namespace Pilas
             return true;
         }
 
+        public void ImprimirLista()
+        {
+            while (!PilaVacia())
+            {
+                Console.WriteLine(ExtraerElemento());
+            }
+        }
+        //public void ImprimirLista2()
+        //{
+        //    int contador = CantidadElementos();
+        //    int auxiliar = _cima;
+        //    while (contador != 0)
+        //    {
+        //        Console.WriteLine(listapila[auxiliar]);
+        //        auxiliar--;
+        //        contador--;
+        //    }
+        //}
     }
 
    
